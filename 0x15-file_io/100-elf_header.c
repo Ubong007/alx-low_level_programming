@@ -261,15 +261,15 @@ void close_elf(int elf)
 
 /**
  * main - Displays the content of thr ELF header
- * 	at the beginning  an ELF file.
+ *	at the beginning an ELF file.
  * @argc: The numb of arguments supplied.
  * @argv: An array of pointers to the arguments.
  *
  * Return: 0 on success.
  *
- * Description: Exits with ecit code 98 if the provided file 
- * 	is not valid  ELF File or
- * 	the function fails.
+ * Description: Exits with ecit code 98 if the provided file
+ *	is not valid  ELF File or
+ *	the function fails.
  */
 int main(int __attribute__((__unused__)) argc, char *argv[])
 {
